@@ -2,6 +2,8 @@
 
 Bu proje, **CREMA-D** ve **EMO-DB** veri setleri kullanılarak gerçekleştirilmiş bir ses tabanlı duygu tanıma (SER - Speech Emotion Recognition) çalışmasıdır. Projede, model performansını artırmak amacıyla CREMA-D veri seti için **veri artırma (data augmentation)** teknikleri de uygulanmıştır.
 
+(veri setlerinin orijinal hallerinin de bulunduğu)[drive linki](https://drive.google.com/drive/folders/1hWX3PMePLLoGJEq0iMiUh6-3zWsqQ0sJ?usp=drive_link)
+
 LightGBM, SVM ve MLP (Multi-Layer Perceptron) olmak üzere üç farklı makine öğrenmesi modeli her bir veri seti (CREMA-D, CREMA-D Artırılmış, EMO-DB) için ayrı ayrı eğitilmiş ve değerlendirilmiştir.
 
 ## Dosya Açıklamaları
