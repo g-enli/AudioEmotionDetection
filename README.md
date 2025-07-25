@@ -7,7 +7,7 @@ Datasetlerin orijinal hallerinde bulunduğu [drive linki](https://drive.google.c
 1.  **Yöntem 1:** LightGBM, SVM ve MLP tabanlı makine öğrenimi modelleriyle duygu sınıflandırması (`train_ml.ipynb`, `test_ml.ipynb`).
 2.  **Yöntem 2:** LSTM tabanlı tekrarlayan sinir ağı (RNN) modeli ile duygu sınıflandırması (`train_rnn.ipynb`, `test_rnn.ipynb`).
 
----
+
 
 ## Veri Setleri
 
@@ -15,7 +15,7 @@ Datasetlerin orijinal hallerinde bulunduğu [drive linki](https://drive.google.c
 -   **CREMA-D_AUG:** CREMA-D veri setine veri artırma (gürültü ekleme, hız değiştirme, perde kaydırma) uygulanarak ~30,000 örneğe genişletildi (4 kat artış).
 -   **EMO-DB:** ~25,000 ses dosyası, 7 duygu sınıfı (Angry, Happy, Disgust, Fear, Surprised, Sad, Neutral). Her sınıf için ~3,500 örnek.
 
----
+
 
 ## Yöntemler
 
@@ -33,7 +33,7 @@ Datasetlerin orijinal hallerinde bulunduğu [drive linki](https://drive.google.c
 -   **Model:** PyTorch ile 2-3 katmanlı LSTM modeli, dropout (0.4-0.5) ve early stopping (patience=5-7) uygulanır.
 -   **Değerlendirme:** Eğitim/doğrulama kayıp eğrileri, karışıklık matrisi, doğruluk, F1-skoru, hassasiyet ve duyarlılık grafikleri.
 
----
+
 
 ## Dosya Açıklamaları
 
@@ -53,13 +53,7 @@ Datasetlerin orijinal hallerinde bulunduğu [drive linki](https://drive.google.c
 -   `scaler_rnn_*.pkl`, `label_encoder_rnn_*.pkl`: Her veri seti için ölçekleyici ve etiket kodlayıcı.
 -   `X_test_rnn_*.npy`, `y_test_rnn_*.npy`: Her veri seti için test verileri.
 
-### Ortak
 
--   `.ipynb_checkpoints/`: Jupyter Notebook kontrol noktaları (otomatik kaydedilen sürümler).
--   `datasets/CREMA-D`: CREMA-D ses dosyaları (~7,500 örnek, dosya adlarında duygu kodları, örn: `*HAP*.wav`).
--   `datasets/EMO-DB`: EMO-DB ses dosyaları (~25,000 örnek, duygu sınıflarına göre klasörlerde).
-
----
 
 ## Kullanım Talimatları
 
@@ -96,7 +90,7 @@ Datasetlerin orijinal hallerinde bulunduğu [drive linki](https://drive.google.c
 
 **Çıktılar:** Modeller `.pth` ve `.pkl` formatında, test verileri, scaler'lar ve etiket kodlayıcılar `.npy` ve `.pkl` formatında kaydedilir.
 
----
+
 
 ## Gereksinimler
 
