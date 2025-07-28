@@ -3,6 +3,7 @@
 Bu proje, **CREMA-D** ve **EMO-DB** veri setlerini kullanarak ses tabanlı duygu sınıflandırması yapar. İki farklı yöntem uygulanmıştır:
 
 Datasetlerin orijinal hallerinin ve tüm dosyaların bulunduğu [drive linki](https://drive.google.com/drive/folders/1hWX3PMePLLoGJEq0iMiUh6-3zWsqQ0sJ)
+Genel açıklamaların bulunduğu [Sunum linki](https://docs.google.com/presentation/d/e/2PACX-1vQ8_EwTHYL6WntH0EHJ-pl8ZpASouNni-EwxzwwyPII8AFU4WWA8TwhCBzNqGhY6afHy2Ki5ZJP7CbK/pub?start=false&loop=false&delayms=3000)
 
 1.  **Yöntem 1:** LightGBM, SVM ve MLP tabanlı makine öğrenimi modelleriyle duygu sınıflandırması (`train_ml.ipynb`, `test_ml.ipynb`).
 2.  **Yöntem 2:** LSTM tabanlı tekrarlayan sinir ağı (RNN) modeli ile duygu sınıflandırması (`train_rnn.ipynb`, `test_rnn.ipynb`).
